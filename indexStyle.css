@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:rgba(199, 51, 130, 0.582);
+    font-family: 'Poppins', sans-serif;
+
+}
+ul
+ {
+     list-style: none;
+     font-style: italic;
+ }
+
+ a{
+     text-decoration: none; 
+     font-weight: 700;
+ }
+
+body
+{
+    /*background: url(./img/fundo3.jpg) no-repeat center center fixed;*/
+    background-size: cover;
+}
+header
+ {
+    
+    background: linear-gradient(90deg, #ee9ca7, #ffdde1);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    /*border-bottom: 2px solid white;*/
+    box-shadow: 1px 1px 10px 1px  white;
+   /* border-bottom: 15px ridge white;*/
+    margin-bottom: 45px;
+ }
+
+ header ul{
+    display: flex;
+}
+
+header ul li{
+    padding: 5%;
+   /*border-right: 2px dashed white;*/
+}
+
+header ul li a{
+    transition: 300ms;
+ 
+  }
+
+  header ul li a:hover{
+    color: #7c2f63;
+    text-decoration: underline;
+
+ }
+
+
+
+ .container .name h1{
+     font-size: 35px;
+     text-align: center;
+     color: #800080;
+ }
+
+ .container .name h5{
+    font-size: 17px;
+    text-align: center;
+    color: #800080;
+}
+.flex{
+    display: flex;
+    
+    justify-content: space-evenly;
+    margin: 15px;
+}
+.container img{
+    
+    display: block;
+    max-width: 250px;
+    
+}
+.container  p{
+    
+    color: #800080;
+    width: 250px;
+    margin: 15px;
+    text-align: justify;
+    
+}
+.rodape{
+    background: linear-gradient(90deg, #ee9ca7, #ffdde1);
+    display: block;
+    align-items: center;
+}
+.rodape p{
+    color: #800080;
+    
+    text-align: center;
+}
+.rodape ul {
+    display: block;
+
+    
+}
+.rodape ul li{
+    
+   /*border-right: 2px dashed white;*/
+   align-items: center;
+   text-align: center;
+}
+.rodape li
+{
+    color: #800080;
+    transition: 300ms;
+ 
+}
+
+
+

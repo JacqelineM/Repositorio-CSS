@@ -1,0 +1,21 @@
+<style>
+body
+{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1,span {
+    color: blueviolet;
+}
+
+span{
+    color: coral;
+}
+li{
+    text-decoration: underline;
+    color: blue;
+    
+}
+ul{
+    border: 1px solid red;
+}
+</style>

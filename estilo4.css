@@ -1,0 +1,46 @@
+ *{
+     color: red;
+     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0px;
+    }
+    /*.primeiro
+    {
+       
+        border: 1px solid green;
+        margin: 30px;
+    }
+    .segundo{
+        border: 5px  solid black;
+        padding: 15px;
+    }*/
+    
+    .primeiro,
+    .segundo{
+        border: 5px  solid black;
+        padding: 15px;
+        margin: 5px;
+    }
+    
+    nav span{  /*pega os elementos que estão encapsulados*/
+        color: red;
+        cursor: pointer;
+        transition: 300ms;
+    }
+    nav span:hover{/* mudaça anmação pequena*/
+
+        text-decoration: underline;
+        color: black;
+        background-color: lightcoral;
+
+    }
+    .segundo > p {
+        color: green;
+    }
+    .segundo >div {
+        display: block !important;
+
+    }
+    
+
+    
